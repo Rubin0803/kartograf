@@ -7,12 +7,21 @@ a{
 }
 section{
 	margin:0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
 }
 .container {
 	max-width: 1130px;
 	margin: 0 auto;
-	position: relative;
 }
+/*.aboutus, .works, .certificate, .contacts, .form{
+	margin-top: 100px;
+	
+}*/
+/*.type_block{
+	padding-top:100px;
+}*/
 /*NAVIGATION*/
 #menu{
 	width: 100%;
@@ -22,18 +31,20 @@ section{
 	position: fixed;
 	line-height: 83px;
 	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-around;
+	/*align-content: center;*/
 }
-/*.nav-logo {
-		background-image: url(image/logo.png);
-		background-position: 0 0;
+.nav-logo {
+		background-image: url(image/logo-a.png);
 		background-repeat: no-repeat;
-		width: 80px;
-		height: 80px;
-		display: inline-block;
-		position: relative;
-		z-index: 998;
+	/*	width: 80px;
+		height: 80px;*/
+	/*	display: inline-block;
+		position: relative;*/
+		z-index: 997;
 		
-	}*/
+	}
 .nav ul{
 	list-style-type: none;
 }
